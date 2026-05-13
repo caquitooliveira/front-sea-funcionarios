@@ -1,73 +1,105 @@
-# React + TypeScript + Vite
+# Sistema CRUD de Funcionários - SEA Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto Front-End desenvolvido como desafio técnico utilizando React, TypeScript e Redux Toolkit.  
+A aplicação permite o gerenciamento de funcionários com funcionalidades de cadastro, edição, exclusão e visualização de dados em uma interface moderna e responsiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- TypeScript
+- Redux Toolkit
+- React Router DOM
+- Ant Design
+- Vite
+- Json Server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 📋 Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✅ Cadastro de funcionários  
+✅ Edição de funcionários  
+✅ Exclusão de funcionários  
+✅ Dashboard com informações  
+✅ Navegação entre páginas  
+✅ Responsividade para mobile  
+✅ Menu hambúrguer no mobile  
+✅ Integração com API mockada  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# 📁 Estrutura do projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+src/
+ ├── components
+ ├── features
+ ├── layouts
+ ├── pages
+ ├── routes
+ ├── services
+ ├── store
+ ├── styles
+ ├── types
+ └── utils
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# ▶️ Como executar o projeto
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Clone o repositório
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
 ```
+
+## Entre na pasta do projeto
+
+```bash
+cd front-sea-funcionarios
+```
+
+## Instale as dependências
+
+```bash
+npm install
+```
+
+## Execute o Json Server
+
+```bash
+npm run server
+```
+
+## Execute o projeto
+
+```bash
+npm run dev
+```
+
+---
+
+# 📱 Responsividade
+
+O sistema foi desenvolvido com adaptação para dispositivos móveis, incluindo:
+
+- Sidebar responsiva
+- Menu hambúrguer
+- Layout adaptável
+- Ajustes para diferentes tamanhos de tela
+
+---
+
+# 🧠 Objetivo
+
+O objetivo deste projeto foi aplicar conceitos modernos de desenvolvimento Front-End utilizando componentização, gerenciamento de estado global e boas práticas de organização de código.
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+Caio Oliveira  
+Front-End Developer Jr 🚀
