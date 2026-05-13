@@ -1,0 +1,38 @@
+{
+  "employees": [
+    {
+      "name": "Caio Oliveira ",
+      "role": "Fron-End",
+      "status": "Ativo",
+      "cpf": "050.013.***.**",
+      "rg": "****DF",
+      "birthDate": "1994-02-10",
+      "gender": "Masculino",
+      "activity": "Atividade 1",
+      "usesEpi": "Não",
+      "id": 3
+    },
+    {
+      "name": "carlos",
+      "role": "gestor",
+      "status": "Inativo",
+      "id": 6
+    },
+    {
+      "name": "vanessa",
+      "role": "dados",
+      "status": "Ativo",
+      "activity": "Atividade 2",
+      "id": 7
+    },
+    {
+      "name": "Ronaldo",
+      "role": "back-end",
+      "status": "Inativo",
+      "rg": "1215646DF",
+      "gender": "Masculino",
+      "activity": "Atividade 2",
+      "id": 8
+    }
+  ]
+}

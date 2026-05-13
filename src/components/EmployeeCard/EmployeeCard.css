@@ -1,0 +1,84 @@
+.employee-card {
+  width: 100%;
+  background: #e6f0f5;
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 60px solid #66a9cb;
+  transition: 0.2s ease;
+}
+
+.employee-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.employee-card h3 {
+  margin: 0 0 10px 0;
+  color: #4e4e4e;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.employee-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.employee-tags span {
+  background: #66a9cb;
+  color: white;
+  padding: 5px 14px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.employee-card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-right: -45px;
+}
+
+.employee-card-actions button {
+  border: none;
+  background: white;
+  color: #66a9cb;
+  padding: 7px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.employee-card-actions button:hover {
+  background: #f0f0f0;
+}
+@media (max-width: 768px) {
+  .employee-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-right: none;
+    border-bottom: 8px solid #66a9cb;
+  }
+
+  .employee-card-actions {
+    flex-direction: row;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .employee-card-actions button {
+    flex: 1;
+  }
+
+  .employee-tags {
+    gap: 6px;
+  }
+}

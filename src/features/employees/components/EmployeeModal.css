@@ -1,0 +1,15 @@
+.employee-modal-form {
+  margin-top: 8px;
+}
+
+.employee-modal-section {
+  background: #f8fafc;
+  border: 1px solid #d9e6f2;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.employee-modal-actions {
+  margin-top: 16px;
+}
