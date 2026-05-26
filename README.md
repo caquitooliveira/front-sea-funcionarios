@@ -50,10 +50,7 @@ src/
 
 # ▶️ Como executar o projeto
 
-## Clone o repositório
 
-```bash
-git clone URL_DO_SEU_REPOSITORIO
 ```
 
 ## Entre na pasta do projeto
